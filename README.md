@@ -2,14 +2,15 @@
 
 ## Overview
 This repository contains a system for detecting and classifying weld defects using YoloV7-Tiny.
-The system is designed to identify various types of defects in welds and classify them into predefined categories(pores, stains, discontinuities and deposit),
-facilitating quality control in welding processes.
+The system is designed to identify various types of defects in welds and classify them into predefined categories
+(pores, stains, discontinuities and deposit),facilitating quality control in welding processes.
 
 
 ## Installation
 
 This project was created using the YoloV7 implementation developed by WongKinYiu.
 Link for original repository: https://github.com/WongKinYiu/yolov7
+
 It is possible to use the installation dependencies available in the original YoloV7 repository,
 but some additional items are included in the requirements of this repository
 
@@ -92,4 +93,4 @@ For any questions or inquiries, please contact [sylvioblk@gmail.com](mailto:sylv
 
 ---
 
-Thank you for using our Weld Defect Detection and Classification System! We hope it helps you maintain the highest standards of quality in your welding processes.
+Thank you for using our LoHi-Weld Defect Detection and Classification System! We hope it helps you maintain the highest standards of quality in your welding processes.
