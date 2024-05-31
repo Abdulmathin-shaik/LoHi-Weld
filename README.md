@@ -57,26 +57,6 @@ To install and run the system, follow these steps:
 3. *View Results:*
    - The results, including detected defects and their classifications, will be saved in the output/ directory. Use the provided GUI to visualize the results.
 
-## Directory Structure
-
-
-weld-defect-detection/
-│
-├── input/               # Directory for input weld images
-├── output/              # Directory for output results
-├── models/              # Directory for pre-trained models
-├── src/                 # Source code for the system
-│   ├── detect.py        # Script for defect detection
-│   ├── classify.py      # Script for defect classification
-│   ├── preprocess.py    # Image preprocessing utilities
-│   ├── postprocess.py   # Postprocessing utilities
-│   └── utils.py         # Utility functions
-│
-├── app.py               # Main application script
-├── requirements.txt     # Python dependencies
-├── README.md            # This README file
-└── LICENSE              # License for the repository
-
 
 ## Contributing
 
