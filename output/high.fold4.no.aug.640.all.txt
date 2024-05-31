@@ -1,0 +1,15 @@
+Namespace(weights=['./runs/train/high.fold4.no.aug.640/weights/best.pt'], data='data/high.fold4.yaml', batch_size=4, img_size=640, conf_thres=0.001, iou_thres=0.5, task='test', device='0', single_cls=False, augment=False, verbose=True, save_txt=True, save_hybrid=False, save_conf=False, save_json=False, project='runs/test', name='high.fold4.no.aug.640', exist_ok=False, no_trace=False, v5_metric=False)
+Fusing layers... 
+IDetect.fuse
+ Convert model to Traced-model... 
+ traced_script_module saved! 
+ model is traced! 
+
+                 all         205        1928        0.59       0.552       0.532       0.199
+                pore         205          86       0.493       0.486        0.47       0.155
+             deposit         205         390        0.57        0.49       0.482       0.202
+       discontinuity         205         596       0.765       0.718       0.705       0.251
+               stain         205         856       0.533       0.515       0.473       0.189
+Speed: 3.1/2.0/5.1 ms inference/NMS/total per 640x640 image at batch-size 4
+Results saved to runs/test/high.fold4.no.aug.640
+205 labels saved to runs/test/high.fold4.no.aug.640/labels

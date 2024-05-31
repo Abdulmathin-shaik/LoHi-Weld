@@ -1,0 +1,7 @@
+train: weld-dataset/kfold_low/fold0/train.txt
+val: weld-dataset/kfold_low/fold0/val.txt
+test: weld-dataset/kfold_low/test.txt
+
+nc: 4
+
+names: ['pore','deposit','discontinuity','stain']
