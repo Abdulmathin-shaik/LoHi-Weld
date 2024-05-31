@@ -58,14 +58,22 @@ To install and run the system, follow these steps:
    - The results, including detected defects and their classifications, will be saved in the output/ directory. Use the provided GUI to visualize the results.
 
 
-## Contributing
+# Citing
 
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
+```
+@ARTICLE{Sylvio2024,
+  title={LoHi-WELD: a novel industrial dataset for weld defect detection and classification, a deep learning study, and future perspectives}, 
+  author={S.B. {BLock}, R.D. da {Silva}, A.E. {Lazzaretti} and R. {Minetto}},
+  journal={IEEE Access}, 
+  year={2024},
+  volume={1},
+  number={1},
+  issn={2169-3536},
+  pages={1-12},
+  doi={10.1109/ACCESS.2024.3407019},
+  url = {https://ieeexplore.ieee.org/document/10540490}
+}
+```
 
 ## Contact
 
