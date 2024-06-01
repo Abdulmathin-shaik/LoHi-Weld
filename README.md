@@ -45,7 +45,7 @@ To install and run the system, follow these steps:
 ## Citing
 
 ```
-@ARTICLE{Sylvio2024,
+@article{Sylvio2024,
   title={LoHi-WELD: a novel industrial dataset for weld defect detection and classification, a deep learning study, and future perspectives}, 
   author={S.B. {BLock}, R.D. da {Silva}, A.E. {Lazzaretti} and R. {Minetto}},
   journal={IEEE Access}, 
