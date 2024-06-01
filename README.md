@@ -1,9 +1,8 @@
-# LoHi-Weld: Weld Defect Detection and Classification System
+# LoHi-WELD: a novel industrial dataset for weld defect detection and classification, a deep learning study, and future perspectives
 
 ## Overview
-This repository contains a system for detecting and classifying weld defects using YoloV7-Tiny.
-The system is designed to identify various types of defects in welds and classify them into predefined categories
-(pores, stains, discontinuities and deposit),facilitating quality control in welding processes.
+This repository contains the source code of LoHi-WELD, an original and public database to address the problem of weld defect detection and classification of four common types of defects --- pores, deposits, discontinuities, and stains --- with 3,022 real weld bead images manually annotated for visual inspection, composed by low and high-resolution images, acquired from a Metal Active Gas robotic welding industrial process. We also explore variations of a baseline deep architecture for the proposed dataset based on a YOLOv7 network and discuss several case analyses. We show that a lightweight architecture, ideal for industrial edge devices, can achieve up to 0.69 of mean average precision (mAP) considering a fine-grained defect classification and 0.77 mAP for a coarse classification.
+In our paper, see the citation, open challenges and a deep review of datsets for welding are also presented, promoting future research and enabling robust solutions for industrial scenarios.
 
 ![](/lohi-weld.jpeg)
 
@@ -35,30 +34,13 @@ To install and run the system, follow these steps:
     pip install -r requirements.txt
     
 
-4. *Download Pre-trained Models:*
-    Download the pre-trained models from the provided link and place them in the models/ directory.
-    Link: https://drive.google.com/file/d/1EJuBWMt1tfIjmFcHma0MiFoyK70gtaoA/view?usp=sharing
+4. *Download the pre-trained models and decompress in the main folder (runs).
+    Link: [Google Drive](https://drive.google.com/file/d/1EJuBWMt1tfIjmFcHma0MiFoyK70gtaoA/view?usp=sharing).
 
-5. *Downlod de image dataset (High and Low)*
-    Link: https://drive.google.com/file/d/1pXeEnREfV_MYcL5MY2vkd9njBm_blPUK/view?usp=sharing
-    
+6. *Downlod de image dataset (high/low weld beads, json annotations, and kfolds) and decompress in the main folder (weld_dataset)*
+    Link: [Google Drive](https://drive.google.com/file/d/1pXeEnREfV_MYcL5MY2vkd9njBm_blPUK/view?usp=sharing).
 
-## Usage
-
-1. *Load Weld Images:*
-   - Load the images of welds that need to be inspected into the weld-dataset/ directory.
-   - Low imagens on the weld-dataset/low_resolution_welds
-   - High imagens on the weld-dataset/high_resolution_welds 
-
-2. *Run Detection and Classification:*
-   - Execute the script to process the images and generate results.
-     bash
-     python detect_and_classify.py
-     
-
-3. *View Results:*
-   - The results, including detected defects and their classifications, will be saved in the output/ directory. Use the provided GUI to visualize the results.
-
+7. *Execute: ./test.sh (or train.sh for retraining)*    
 
 # Citing
 
@@ -81,6 +63,6 @@ To install and run the system, follow these steps:
 
 For any questions or inquiries, please contact [sylvioblk@gmail.com](mailto:sylvioblk@gmail.com).
 
----
+# Software license agreement 
 
-Thank you for using our LoHi-Weld Defect Detection and Classification System! We hope it helps you maintain the highest standards of quality in your welding processes.
+Our dataset/code can be used for research, non-comercial or comercial purposes for free with proper citation.
