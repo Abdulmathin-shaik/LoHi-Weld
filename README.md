@@ -5,7 +5,7 @@ This repository contains a system for detecting and classifying weld defects usi
 The system is designed to identify various types of defects in welds and classify them into predefined categories
 (pores, stains, discontinuities and deposit),facilitating quality control in welding processes.
 
-![](/lohi-weld.jpg)
+![](/lohi-weld.jpeg)
 
 
 ## Installation
