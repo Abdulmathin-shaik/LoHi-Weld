@@ -34,7 +34,7 @@ To install and run the system, follow these steps:
     pip install -r requirements.txt
     
 
-4. *Download the pre-trained models and decompress in the main folder (runs).
+4. *Download the pre-trained models and decompress in the main folder (runs).*
     Link: [Google Drive](https://drive.google.com/file/d/1EJuBWMt1tfIjmFcHma0MiFoyK70gtaoA/view?usp=sharing).
 
 6. *Downlod de image dataset (high/low weld beads, json annotations, and kfolds) and decompress in the main folder (weld_dataset)*
