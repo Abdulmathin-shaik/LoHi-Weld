@@ -2,7 +2,7 @@
 
 ## Overview
 This repository contains the source code of LoHi-WELD, an original and public database to address the problem of weld defect detection and classification of four common types of defects --- pores, deposits, discontinuities, and stains --- with 3,022 real weld bead images manually annotated for visual inspection, composed by low and high-resolution images, acquired from a Metal Active Gas robotic welding industrial process. We also explore variations of a baseline deep architecture for the proposed dataset based on a YOLOv7 network and discuss several case analyses. We show that a lightweight architecture, ideal for industrial edge devices, can achieve up to 0.69 of mean average precision (mAP) considering a fine-grained defect classification and 0.77 mAP for a coarse classification.
-In our paper, see the citation, open challenges and a deep review of datsets for welding are also presented, promoting future research and enabling robust solutions for industrial scenarios.
+In our paper, see the citation, open challenges and a deep review of datasets for welding are also presented, promoting future research and enabling robust solutions for industrial scenarios.
 
 ![](/lohi-weld.jpeg)
 
@@ -42,7 +42,7 @@ To install and run the system, follow these steps:
 
 7. *Execute: ./test.sh (or train.sh for retraining)*    
 
-# Citing
+## Citing
 
 ```
 @ARTICLE{Sylvio2024,
@@ -63,6 +63,6 @@ To install and run the system, follow these steps:
 
 For any questions or inquiries, please contact [sylvioblk@gmail.com](mailto:sylvioblk@gmail.com).
 
-# Software license agreement 
+## Software license agreement 
 
 Our dataset/code can be used for research, non-comercial or comercial purposes for free with proper citation.
