@@ -37,12 +37,21 @@ To install and run the system, follow these steps:
 4. *Download the pre-trained models and decompress in the main folder (runs).*
     Link: [Google Drive](https://drive.google.com/file/d/1EJuBWMt1tfIjmFcHma0MiFoyK70gtaoA/view?usp=sharing).
 
-6. *Downlod de image dataset (high/low weld beads, json annotations, and kfolds) and decompress in the main folder (weld_dataset)*
+6. *Download de image dataset (high/low weld beads, json annotations, and kfolds) and decompress in the main folder (weld_dataset)*
     Link: [Google Drive](https://drive.google.com/file/d/1pXeEnREfV_MYcL5MY2vkd9njBm_blPUK/view?usp=sharing).
 
-7. *Execute: ./test.sh (or train.sh for retraining)*    
+7. *Execute: ./test.sh (or train.sh for retraining)*
+
+## Full images
+
+*For those interested, the full-resolution original images (both low and high) can also be downloaded:
+
+Link: [Google Drive](https://drive.google.com/drive/folders/1m1Bvo4u4Qre8yFjEe4XNxdfYa3A5YiW4?usp=sharing).
+
+![](figures/low.jpg)
 
 ## Citing
+
 
 ```
 @article{Sylvio2024,
