@@ -55,6 +55,10 @@ Link: [Google Drive](https://drive.google.com/drive/folders/1m1Bvo4u4Qre8yFjEe4X
 
 ## Citing
 
+If you use our dataset or code in your research, please cite our paper to acknowledge this work. 
+
+Link: [IEEE Access](https://ieeexplore.ieee.org/abstract/document/10540490).
+
 
 ```
 @article{Sylvio2024,
