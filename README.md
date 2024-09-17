@@ -6,6 +6,9 @@ In our paper, see the citation, open challenges and a deep review of datasets fo
 
 ![](/lohi-weld.jpeg)
 
+## Timeline of NDI methods for weld defects detection and classification and overview of welding datasets
+
+![](/summary.jpg)
 
 ## Installation
 
@@ -48,7 +51,7 @@ To install and run the system, follow these steps:
 
 Link: [Google Drive](https://drive.google.com/drive/folders/1m1Bvo4u4Qre8yFjEe4XNxdfYa3A5YiW4?usp=sharing).
 
-![](/low.jpg){:height="36px" width="36px"}
+![](/low.jpg)
 
 ## Citing
 
