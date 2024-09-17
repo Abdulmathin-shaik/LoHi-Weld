@@ -48,7 +48,7 @@ To install and run the system, follow these steps:
 
 Link: [Google Drive](https://drive.google.com/drive/folders/1m1Bvo4u4Qre8yFjEe4XNxdfYa3A5YiW4?usp=sharing).
 
-![](figures/low.jpg)
+![](/low.jpg)
 
 ## Citing
 
